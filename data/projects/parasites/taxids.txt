@@ -1,0 +1,153 @@
+# From the book "Die Parasiten des Menschen" by Heinz Mehlhorn
+# Schistosoma haematobium
+6185
+# Schistosoma mansoni
+6183
+# Schistosoma japonicum
+6182
+# Schistosoma intercalatum
+6187
+# Schistosoma haematobium
+6185
+632765
+3054441
+2905979
+174752
+# Clonorchis sinensis
+79923
+# Opisthorchis viverrini
+6198
+# Opisthorchis felineus
+147828
+# Paragonimus
+34503
+# Fasciolopsis buski
+27845
+# Fasciola hepatica
+6192
+# Dicrocoelium dendriticum
+57078
+# Heterophyes
+104454
+# Metagonimus
+84527
+# Echinostoma ilocanum
+2780386
+# Himasthla
+220387
+# Hypoderaeum conoideum
+220810
+# Aretyfechinostomum (mehrai)
+408853
+# Gastrodiscoides
+408851
+# Watsonius watsoni
+758770
+# Nanophyetus salmincola
+240278
+# Taenia solium
+6204
+# Taenia asiatica
+60517
+# Taenia saginata 
+6206
+# Dibothriocephalus
+2267273
+# Hymenolepis
+6215
+# Echinococcus
+6209
+# Dipylidium caninum
+66787
+# Hymenolepis diminuta
+6216
+# Railletina celebensis
+1965239
+# Imerinaea madagascarica
+796506
+# Bertiella
+578851
+# Taenia solium
+6204
+# Enterobius vermicularis
+51028
+# Ascaris lumbricoides
+6252
+# Trichuris trichiura
+36087
+# Ancylostoma
+29169
+# Necator
+51030
+# Strongyloides stercoralis
+6248
+# Capillaria hepatica
+1239592
+# Capillaria philippinensis
+1457282
+# Trichinella spiralis
+6334
+# Angiostrongylus cantonensis
+6213
+# Angiostrongylus costaricensis
+334426
+# Anisakis
+6268
+# Gnathostoma
+61463
+# Toxocara
+6264
+# Dictyophyme renale
+513045
+# Hystrichis tricolor
+2714996
+# Stephanurus dentatus
+321369
+# Ternidens deminutus
+317882
+# Trichostrongylus
+6318
+# Wuchereria bancrofti
+6293
+# Brugia malayi
+6279
+# Loa loa
+7209
+# Onchocerca volvulus
+6282
+# Mansonella perstans 
+42231
+# Mansonella ozzardi
+122354
+# Mansonella streptocerca
+1761664
+# Dirofilaria immitis
+6287
+# Dirofilaria repens
+31241
+# Dracunculus medinensis
+318479
+# Ancylostoma braziliense
+369059
+# Uncinaria stenocephala
+125367
+# Gnathostoma spinigerum
+75299
+# Toxocara canis
+6265
+# Toxocara mystax
+6266
+# Baylisascaris procyonis
+6259
+# Dirofilaria
+6286
+# Thelazia
+103826
+# Linguatula serrata
+646052
+# Armillifer
+260803
+# Porocephalus
+7566
+# Macracanthorhynchus hirudinaceus
+1032456

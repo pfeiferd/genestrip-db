@@ -1,0 +1,28 @@
+# From: "Rebschutz" (in German) by Walter Hildebrand, Dieter Lorenz, Friedrich Louis; ISBN 3-921156-36-X
+# (Regarding the protection of wine against fungal infections.)
+# Botrytis cinera
+40559
+# Plasmopara viticola
+143451
+# Unicula necator, Erysiphe necator
+52586
+# Pseudopezicula tracheiphila
+2075325
+# Phomopsis viticola, Diaporthe ampelina
+1214573
+# Eutypa lata - Eutypiose
+97096
+# Penicillium expansum
+27334
+# Coniothyrium diplodiella
+332405
+# Trichothecium roseum
+47278
+# Alternaria tenuissima
+119927
+# Roesleria hypogaea, Roesleria subterranea
+417897
+# Dematophora necatrix
+2751867
+# Armillaria mellea
+47429
