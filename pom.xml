@@ -4,6 +4,41 @@
 	<artifactId>genestrip-db</artifactId>
 	<version>0.1</version>
 	<packaging>pom</packaging>
+	
+	<properties>
+		<gs.project.name>${name}</gs.project.name>
+		<gs.project.goal>${goal}</gs.project.goal>
+		<gs.project.fqmap>${fqmap}</gs.project.fqmap>
+	</properties>
+	
+	<name>genestrip-db</name>
+	<description>A selection of databases for Genestrip</description>
+	<url>https://github.com/pfeiferd/genestrip-db</url>
+
+	<organization>
+		<name>Progotec</name>
+		<url>http://www.progotec.de</url>
+	</organization>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>https://raw.githubusercontent.com/pfeiferd/genestrip-db/master/LICENSE.txt</url>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:git:git://github.com/pfeiferd/genestrip-db.git</connection>
+		<developerConnection>scm:git:ssh://github.com/pfeiferd/genestrip-db.git</developerConnection>
+		<url>https://github.com/pfeiferd/genestrip-db/tree/master</url>
+	</scm>
+	
+	<developers>
+		<developer>
+			<name>Daniel Pfeifer</name>
+			<email>daniel.pfeifer@progotec.de</email>
+		</developer>
+	</developers>
 	<dependencies>
 		<dependency>
 			<groupId>org.genestrip</groupId>
@@ -11,11 +46,6 @@
 			<version>1.1</version>
 		</dependency>
 	</dependencies>
-	<properties>
-		<gs.project.name>${name}</gs.project.name>
-		<gs.project.goal>${goal}</gs.project.goal>
-		<gs.project.fqmap>${fqmap}</gs.project.fqmap>
-	</properties>
 	<build>
 		<plugins>
 			<plugin>
@@ -33,7 +63,7 @@
 							<includeProjectDependencies>true</includeProjectDependencies>
 							<includePluginDependencies>true</includePluginDependencies>
 							<arguments>
-								<argument>-Xmx64G</argument>
+								<argument>-Xmx32G</argument>
 								<argument>-classpath</argument>
 								<classpath />
 								<argument>org.metagene.genestrip.Main</argument>
