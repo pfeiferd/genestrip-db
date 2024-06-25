@@ -29,7 +29,7 @@ The databases are based on and compatible with [Genestrip v1.1](https://github.c
 
 All databases are purely genomic.
 
-| Name        | Category |Description | DB disk size   | Sources and references |
+| Name        | Category |Description | Database disk size   | Sources and references |
 | ----------- | -----|------ | ----------- | ---------------------- |
 | `babesia`     | `protozoa` | Babesia species from the [RefSeq](https://ftp.ncbi.nlm.nih.gov/refseq/release/) and [Genbank](https://ftp.ncbi.nlm.nih.gov/genomes/genbank/) which are potentially pathogenic for humans | 936 MB | General knowledge |
 | `borrelia`   | `bacteria` | Borrelia species from the [RefSeq](https://ftp.ncbi.nlm.nih.gov/refseq/release/) which are potentially pathogenic for humans  | 844 MB | General knowledge |
