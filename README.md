@@ -6,7 +6,8 @@ generate [databases and indexes](https://github.com/pfeiferd/genestrip/blob/mast
 
 ## License
 
-[Genestrip-DB is free for any kind of use.](./LICENSE.txt) However, the associated software, [Genestrip](https://github.com/pfeiferd/genestrip), has a [more restrictive License]([Genestrip](https://github.com/pfeiferd/genestrip#license).). 
+[Genestrip-DB is free for any kind of use.](./LICENSE.txt) 
+However, the associated software, [Genestrip](https://github.com/pfeiferd/genestrip), has a [more restrictive License](https://github.com/pfeiferd/genestrip#license). 
 
 ## Building and installing
 
