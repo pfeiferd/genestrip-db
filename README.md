@@ -23,6 +23,8 @@ Your machine should have:
 * 32 GB of main memory,
 * a high bandwidth Internet connection.
 
+The database are based on and compatible with [Genestrip v1.1](https://github.com/pfeiferd/genestrip/releases/tag/v1.1).
+
 ## The databases
 
 All databases are purely genomic.
