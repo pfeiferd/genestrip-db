@@ -2,8 +2,8 @@
 # (Regarding the protection of wine against fungal infections.)
 # Botrytis cinera
 40559
-# Plasmopara viticola
-143451
+# Plasmopara viticola - this does not belong here - it's a plant...
+# 143451
 # Unicula necator, Erysiphe necator
 52586
 # Pseudopezicula tracheiphila
