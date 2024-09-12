@@ -55,7 +55,7 @@ As expected, Genestrip finds DNA from borrelia and other tick-borne infections a
 ## Downloading the ready-made databases
 
 If you don't want to generate them yourself, the databases and indexes can also be [downloaded from genestrip.org](https://www.genestrip.org/files/data).
-The [projects folder](https://www.genestrip.org/files/data/projects/) corresponds 
+The [`projects` folder](https://www.genestrip.org/files/data/projects/) corresponds 
 to the [`projects` folder's](https://github.com/pfeiferd/genestrip-db/tree/master/data/projects) state of this project, after the scripts `bin/makedbs.sh` and `bin/matchticks.sh` have run successfully.
 
 
