@@ -20,7 +20,7 @@ Generating the bacterial databases is particularly time consuming.
 Your machine should have:
 * 650 GB of free disk space - mainly for downloading genomes from [NCBI](https://www.ncbi.nlm.nih.gov/),
 * at least 8 cores - the more the better (some phases of the database generation keep 32 cores 100% busy),
-* 32 GB of main memory,
+* 48 GB of main memory,
 * a high bandwidth Internet connection.
 
 The databases are based on and compatible with [Genestrip v1.4](https://github.com/pfeiferd/genestrip/releases/tag/v1.4).
