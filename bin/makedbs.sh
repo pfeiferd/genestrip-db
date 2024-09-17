@@ -15,6 +15,7 @@ fi
 
 mvn exec:exec@db -Dname=human_virus2 -Dgoal=$goal
 mvn exec:exec@db -Dname=babesia -Dgoal=$goal
+mvn exec:exec@db -Dname=babesia-rna -Dgoal=$goal
 mvn exec:exec@db -Dname=protozoa -Dgoal=$goal
 mvn exec:exec@db -Dname=vineyard -Dgoal=$goal
 mvn exec:exec@db -Dname=parasites -Dgoal=$goal
