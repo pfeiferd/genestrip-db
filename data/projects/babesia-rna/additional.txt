@@ -1,0 +1,2 @@
+# taxid	name URL md5
+9606 GCA_000001405.29_GRCh38.p14_genomic.fna.gz
