@@ -22,3 +22,5 @@ mvn exec:exec@db -Dname=parasites -Dgoal=$goal
 mvn exec:exec@db -Dname=borrelia -Dgoal=$goal
 mvn exec:exec@db -Dname=borrelia_plasmid -Dgoal=$goal
 mvn exec:exec@db -Dname=chronicb -Dgoal=$goal
+mvn exec:exec@db -Dname=plasmopara -Dgoal=$goal
+
