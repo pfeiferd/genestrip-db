@@ -1,7 +1,7 @@
 **Genestrip-DB** - a selection of databases for [Genestrip](https://github.com/pfeiferd/genestrip)
 ===============================================
   
-This project contains some configuration files and a two scripts in order to 
+This project contains some configuration files and two scripts in order to 
 generate [databases and indexes](https://github.com/pfeiferd/genestrip/blob/master/README.md#generating-your-own-database) for metagenomic analysis via [Genestrip]([Genestrip](https://github.com/pfeiferd/genestrip).).
 
 ## License
