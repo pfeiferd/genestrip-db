@@ -23,7 +23,7 @@ Your machine should have:
 * 48 GB of main memory,
 * a high bandwidth Internet connection.
 
-The databases are based on and compatible with [Genestrip v1.4](https://github.com/pfeiferd/genestrip/releases/tag/v1.4).
+The databases are based on and compatible with [Genestrip v1.7](https://github.com/pfeiferd/genestrip/releases/tag/v1.7).
 
 ## The databases
 
