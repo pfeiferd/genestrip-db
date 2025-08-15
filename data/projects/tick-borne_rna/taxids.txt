@@ -1,0 +1,35 @@
+# Borrelia
+138
+# Borreliella
+64895
+# Ehrlichia
+943
+# Anaplasma
+768
+# Bartonella
+773
+# Chlamydia
+810
+# Mycoplasma
+2093
+# Metamycoplasma
+2895509
+# Mycoplasmoides
+2995234
+# Malacoplasma
+2791001
+# Rickettsia
+780
+# Francisella (because of tularemia)
+262
+# Some Yersinia
+263819
+634
+630
+29484
+631
+28152
+632
+633
+29486
+
