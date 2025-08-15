@@ -1,0 +1,2 @@
+9606 GCA_000001405.29_GRCh38.p14_genomic.fna.gz
+6945 GCF_016920785.2_ASM1692078v2_genomic.fna.gz
