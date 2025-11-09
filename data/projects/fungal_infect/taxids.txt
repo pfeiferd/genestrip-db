@@ -1,0 +1,73 @@
+# From https://www.cdc.gov/fungal/about/types-of-fungal-diseases.html
+# Aspergillus
+5052
+# Blastomyces
+229219
+# Candida auris
+498019
+# Candida albicans
+5476
+# *Chromoblastomycosis
+# Fonsecaea pedrosoi
+40355
+# Cladophialophora bantiana
+89940
+# Phialophora verrucosa
+39412
+# Cladophialophora carrionii
+86049
+# Fonsecaea compacta
+86057
+# Cryptococcus
+5206
+# Fusarium
+5506
+# Histoplasma
+5036
+# *Mucormycosis
+# Rhizopus
+4842
+# Mucor
+4830
+# Lichtheimia
+688353
+# Apophysomyces
+90268
+# Cunninghamella
+4852
+# Mortierella
+4855
+# Saksenaea
+90257
+# *Eumycetoma
+# Madurella mycetomatis
+100816
+# Madurella grisea
+1489895
+# Curvularia lunata
+5503
+# Scedosporium
+41687
+# Acremonium
+159075
+# Fusarium - see above...
+# *Paracoccidioides
+# Paracoccidioides brasiliensis
+121759
+# Paracoccidioides lutzii
+1048829
+# Pneumocystis jirovecii
+42068
+# *Ring worm
+# Trichophyton
+5550
+# Microsporum
+34392
+# Epidermophyton
+34390
+# Sporothrix
+29907
+# Talaromyces marneffei
+37727
+# Coccidioides
+5500
