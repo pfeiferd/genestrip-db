@@ -59,7 +59,7 @@ As expected, Genestrip finds DNA from borrelia and other tick-borne infections a
 
 If you don't want to generate them yourself, the databases and indexes can also be [downloaded from genestrip.it.hs-heilbronn.de](https://genestrip.it.hs-heilbronn.de/files/data).
 The [`projects` folder](https://genestrip.it.hs-heilbronn.de/files/data/projects/) corresponds 
-to the [`projects` folder's](https://github.com/pfeiferd/genestrip-db/tree/master/data/projects) state of this project, after the scripts `bin/makedbs.sh` and `bin/matchticks.sh` have run successfully on the [RefSeq Release 232](https://ftp.ncbi.nlm.nih.gov/refseq/release/RELEASE_NUMBER).
+to the [`projects` folder's](https://github.com/pfeiferd/genestrip-db/tree/master/data/projects) state of this project, after the script `bin/makedbs.sh` has run successfully using the [RefSeq Release 232](https://ftp.ncbi.nlm.nih.gov/refseq/release/RELEASE_NUMBER).
 
 
 
