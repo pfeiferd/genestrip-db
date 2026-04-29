@@ -40,16 +40,6 @@
 			<email>daniel.pfeifer@progotec.de</email>
 		</developer>
 	</developers>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.genestrip</groupId>
-				<artifactId>genestrip</artifactId>
-				<version>2.7</version>
-				<type>pom</type>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.genestrip</groupId>
@@ -87,8 +77,7 @@
 								<argument>-Xmx48G</argument>
 								<argument>-classpath</argument>
 								<classpath />
-								<argument>org.metagene.genestrip.Main</argument>
-								<!--<argument>org.metagene.genestrip.finertree.FinerTreeMain</argument>-->
+								<argument>org.metagene.genestrip.finertree.FinerTreeMain</argument>
 								<argument>${gs.project.name}</argument>
 								<argument>${gs.project.goal}</argument>
 							</arguments>
