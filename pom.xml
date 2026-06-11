@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.metagene</groupId>
 	<artifactId>genestrip-db-exp</artifactId>
-	<version>2.7</version>
+	<version>2.9</version>
 	<packaging>pom</packaging>
 	
 	<properties>
@@ -44,17 +44,17 @@
 		<dependency>
 			<groupId>org.genestrip</groupId>
 			<artifactId>base</artifactId>
-			<version>2.7</version>
+			<version>2.9</version>
 		</dependency>
 		<dependency>
 			<groupId>org.genestrip</groupId>
 			<artifactId>core</artifactId>
-			<version>2.7</version>
+			<version>2.9</version>
 		</dependency>
 		<dependency>
 			<groupId>org.genestrip</groupId>
 			<artifactId>ft</artifactId>
-			<version>2.7</version>
+			<version>2.9</version>
 		</dependency>
 	</dependencies>
 	<build>
