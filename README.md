@@ -17,6 +17,14 @@ To build the databases and indexes, `cd` to the installation directory `genestri
 will generate 11 databases (and indexes) of different sizes. The generation process is resource intensive and may take several days for all databases.
 Generating the bacterial databases is particularly time consuming.
 
+Each project yields two databases. `<project>_db.zip` is the Genestrip database, and `<project>_ftdb.zip` is the same database with the
+taxonomy refined below the genus rank by [Genestrip-FT](https://github.com/pfeiferd/genestrip/blob/master/ft/README.md), which raises
+the accuracy of a `match` under that rank. The script asks for the goal
+[`ftgenall`](https://github.com/pfeiferd/genestrip/blob/master/ft/Goals.md) and thereby generates both of them in one run; another goal
+may be passed as the first argument, e.g. `sh bin/makedbs.sh genall` for the plain databases alone.
+The refinement step also writes the *k*-mer index `<project>_storekmerindex.ser.gz` and adds to the time, the memory and the disk space
+the generation takes.
+
 Your machine should have:
 * 1.5 TB of free disk space - mainly for downloading genomes from [NCBI](https://www.ncbi.nlm.nih.gov/),
 * at least 8 cores - the more the better (some phases of the database generation keep 32 cores 100% busy),

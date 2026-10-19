@@ -7,7 +7,7 @@ cd $scriptdir/..
 
 if [ -z "$1" ]
   then
-	goal=genall
+	goal=ftgenall
   else
   	goal=$1
 fi
