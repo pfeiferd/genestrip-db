@@ -2,11 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.metagene</groupId>
 	<artifactId>genestrip-db</artifactId>
-	<version>2.9</version>
+	<version>4.0</version>
 	<packaging>pom</packaging>
 	
 	<properties>
-		<genestrip.version>3.0</genestrip.version>
+		<genestrip.version>4.0</genestrip.version>
 		<gs.project.name>${name}</gs.project.name>
 		<gs.project.goal>${goal}</gs.project.goal>
 		<gs.project.fqmap>${fqmap}</gs.project.fqmap>
