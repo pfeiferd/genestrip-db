@@ -1,7 +1,7 @@
 **Genestrip-DB** - a selection of databases for [Genestrip](https://github.com/pfeiferd/genestrip)
 ===============================================
   
-This project contains some configuration files and two scripts in order to 
+This project contains some configuration files and a few scripts in order to 
 generate [databases and indexes](https://github.com/pfeiferd/genestrip/blob/master/README.md#generating-your-own-database) for metagenomic analysis via [Genestrip](https://github.com/pfeiferd/genestrip).
 
 ## License
@@ -82,6 +82,13 @@ As expected, Genestrip finds DNA from borrelia and other tick-borne infections a
 If you don't want to generate them yourself, the databases and indexes can also be [downloaded from genestrip.it.hs-heilbronn.de](https://genestrip.it.hs-heilbronn.de/files/data).
 The [`projects` folder](https://genestrip.it.hs-heilbronn.de/files/data/projects/) corresponds 
 to the [`projects` folder's](https://github.com/pfeiferd/genestrip-db/tree/master/data/projects) state of this project, after the script `bin/makedbs.sh` has run successfully based on the [RefSeq Release 234](https://ftp.ncbi.nlm.nih.gov/refseq/release/RELEASE_NUMBER). That upload stems from the Genestrip version this project required when it was made, which need not be the current one.
+The upload covers each project's `csv` folder, so `<project>_svgtaxtree.svg` and `<project>_ftsvgtaxtree.svg` can be viewed there without generating a database.
+
+The script `bin/upload.sh` performs that upload. It transfers everything below `data/projects` - the folder `projects` itself included - to a
+mirror given as its first argument, e.g. `sh bin/upload.sh user@host:/var/www/files/data/`. The files go there as they are: nothing is
+packed or copied beforehand, and `rsync --inplace` writes into the target file directly, so neither the generating machine nor the mirror
+needs room for a second copy of a database. The checksums `data/projects/md5sums.txt` are written by `bin/md5.sh`, which `bin/makedbs.sh`
+calls at the end of a default run and `bin/upload.sh` calls again where a file is newer than they are. An interrupted upload may simply be repeated: only what is missing or has changed since is transferred again.
 
 
 

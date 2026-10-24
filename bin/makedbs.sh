@@ -12,6 +12,7 @@ cd $scriptdir/..
 if [ -z "$1" ]
   then
 	goals="ftgenall svgtaxtree ftsvgtaxtree"
+	md5sums=yes
   else
   	goals="$@"
 fi
@@ -34,3 +35,12 @@ makedb protozoa_rna
 makedb tick-borne
 makedb tick-borne_rna
 makedb vineyard
+
+# The checksums of the generated files, as needed by 'bin/upload.sh', but only after a
+# default run: a run with goals of its own need not leave the databases in a state
+# worth uploading. Computing them here rather than at upload time is no extra work,
+# since the upload keeps them as they are while no file is newer.
+if [ -n "$md5sums" ]
+  then
+	sh bin/md5.sh
+fi
