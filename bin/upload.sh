@@ -35,8 +35,15 @@ if [ -z "$target" ]
 	exit 1
 fi
 
-# The checksums are part of the upload, so they have to cover the current state.
-if [ ! -f data/projects/md5sums.txt ] || [ -n "$(find data/projects -type f ! -name md5sums.txt -newer data/projects/md5sums.txt -print -quit)" ]
+# The checksums are part of the upload, so they have to cover the current state: they
+# are rewritten where they are missing, where a file is newer than they are, or where
+# the number of files no longer matches theirs - the last one because a file that was
+# deleted leaves them with an entry but makes nothing newer than them.
+files=$(find data/projects -type f ! -name md5sums.txt | wc -l)
+
+if [ ! -f data/projects/md5sums.txt ] \
+		|| [ -n "$(find data/projects -type f ! -name md5sums.txt -newer data/projects/md5sums.txt -print -quit)" ] \
+		|| [ "$files" != "$(wc -l < data/projects/md5sums.txt)" ]
   then
 	echo "Generating data/projects/md5sums.txt..."
 	sh bin/md5.sh
