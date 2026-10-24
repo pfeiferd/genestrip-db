@@ -9,6 +9,11 @@
 		<genestrip.version>4.0</genestrip.version>
 		<gs.project.name>${name}</gs.project.name>
 		<gs.project.goal>${goal}</gs.project.goal>
+		<!-- Deliberately not '${target}': an undefined property would reach Genestrip's
+		     '-t' option as a literal and be silently understood as the target 'make',
+		     which would start generating instead of deleting. The script
+		     'bin/cleardb.sh' overrides this property directly. -->
+		<gs.project.target>cleanall</gs.project.target>
 		<gs.project.fqmap>${fqmap}</gs.project.fqmap>
 	</properties>
 	
@@ -79,6 +84,26 @@
 								<argument>-classpath</argument>
 								<classpath />
 								<argument>org.metagene.genestrip.finertree.FinerTreeMain</argument>
+								<argument>${gs.project.name}</argument>
+								<argument>${gs.project.goal}</argument>
+							</arguments>
+						</configuration>
+					</execution>
+					<execution>
+						<id>cleandb</id>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>java</executable>
+							<includeProjectDependencies>true</includeProjectDependencies>
+							<includePluginDependencies>true</includePluginDependencies>
+							<arguments>
+								<argument>-classpath</argument>
+								<classpath />
+								<argument>org.metagene.genestrip.finertree.FinerTreeMain</argument>
+								<argument>-t</argument>
+								<argument>${gs.project.target}</argument>
 								<argument>${gs.project.name}</argument>
 								<argument>${gs.project.goal}</argument>
 							</arguments>

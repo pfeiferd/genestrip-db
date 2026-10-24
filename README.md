@@ -37,6 +37,12 @@ The databases are generated with [`dataNodes=true`](https://github.com/pfeiferd/
 of a taxon are stored at an artificial child node of rank `DATA` instead of at the taxon itself. The trees and the result files of a
 `match` hence show a node `Data for <taxid>` below each taxon that contributes *k*-mers.
 
+The script `bin/cleardb.sh` deletes the generated files again: the databases, the filtering databases, the *k*-mer indexes, a temporary
+database left over from an interrupted run, the info CSVs and the tree images of every project. It asks Genestrip for the target
+[`cleanall`](https://github.com/pfeiferd/genestrip/blob/master/README.md#targets) on the same goals `bin/makedbs.sh` makes, so exactly the
+files of those goals are removed, while what was downloaded from the RefSeq and from Genbank is kept and a rebuild can start from it.
+`sh bin/cleardb.sh cleantotal` deletes the downloads as well.
+
 Your machine should have:
 * 1.5 TB of free disk space - mainly for downloading genomes from [NCBI](https://www.ncbi.nlm.nih.gov/),
 * at least 8 cores - the more the better (some phases of the database generation keep 32 cores 100% busy),
