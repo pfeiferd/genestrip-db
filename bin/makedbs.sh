@@ -5,23 +5,32 @@ scriptdir=$(dirname "$0")
 
 cd $scriptdir/..
 
+# By default each project is made with 'ftgenall' (the k-mer matching database, the
+# filtering database and the FT database) followed by the SVG taxonomy trees of the
+# database contents: 'svgtaxtree' for the plain and 'ftsvgtaxtree' for the FT database.
+# Goals given as arguments replace the whole list.
 if [ -z "$1" ]
   then
-	goal=ftgenall
+	goals="ftgenall svgtaxtree ftsvgtaxtree"
   else
-  	goal=$1
+  	goals="$@"
 fi
 
+makedb() {
+	for goal in $goals
+	do
+		mvn exec:exec@db -Dname=$1 -Dgoal=$goal
+	done
+}
 
-mvn exec:exec@db -Dname=babesia -Dgoal=$goal
-mvn exec:exec@db -Dname=borrelia -Dgoal=$goal
-mvn exec:exec@db -Dname=fungal_infect -Dgoal=$goal
-mvn exec:exec@db -Dname=human_virus2 -Dgoal=$goal
-mvn exec:exec@db -Dname=parasites -Dgoal=$goal
-mvn exec:exec@db -Dname=plasmopara -Dgoal=$goal
-mvn exec:exec@db -Dname=protozoa -Dgoal=$goal
-mvn exec:exec@db -Dname=protozoa_rna -Dgoal=$goal
-mvn exec:exec@db -Dname=tick-borne -Dgoal=$goal
-mvn exec:exec@db -Dname=tick-borne_rna -Dgoal=$goal
-mvn exec:exec@db -Dname=vineyard -Dgoal=$goal
-
+makedb babesia
+makedb borrelia
+makedb fungal_infect
+makedb human_virus2
+makedb parasites
+makedb plasmopara
+makedb protozoa
+makedb protozoa_rna
+makedb tick-borne
+makedb tick-borne_rna
+makedb vineyard

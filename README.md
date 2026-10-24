@@ -19,11 +19,23 @@ Generating the bacterial databases is particularly time consuming.
 
 Each project yields two databases. `<project>_db.zip` is the Genestrip database, and `<project>_ftdb.zip` is the same database with the
 taxonomy refined below the genus rank by [Genestrip-FT](https://github.com/pfeiferd/genestrip/blob/master/ft/README.md), which raises
-the accuracy of a `match` under that rank. The script asks for the goal
-[`ftgenall`](https://github.com/pfeiferd/genestrip/blob/master/ft/Goals.md) and thereby generates both of them in one run; another goal
-may be passed as the first argument, e.g. `sh bin/makedbs.sh genall` for the plain databases alone.
+the accuracy of a `match` under that rank. The script asks for the goals
+[`ftgenall`](https://github.com/pfeiferd/genestrip/blob/master/ft/Goals.md),
+[`svgtaxtree`](https://github.com/pfeiferd/genestrip/blob/master/Goals.md) and
+[`ftsvgtaxtree`](https://github.com/pfeiferd/genestrip/blob/master/ft/Goals.md) and thereby generates both databases and both tree
+images of a project in one run; other goals may be passed as arguments, e.g. `sh bin/makedbs.sh genall` for the plain databases alone.
 The refinement step also writes the *k*-mer index `<project>_storekmerindex.ser.gz` and adds to the time, the memory and the disk space
 the generation takes.
+
+The tree images show the contents of the generated databases: `<project>_svgtaxtree.svg` for the plain and `<project>_ftsvgtaxtree.svg`
+for the FT database, both in the project's `csv` folder. The indentation of a node reflects the number of *k*-mers stored for it, where
+the node with the most *k*-mers is indented by
+[`svgKmerNodeIndentFactor`](https://github.com/pfeiferd/genestrip/blob/master/ConfigParams.md) pixels, which `data/config.properties`
+sets to 1000.
+
+The databases are generated with [`dataNodes=true`](https://github.com/pfeiferd/genestrip/blob/master/ConfigParams.md), so the *k*-mers
+of a taxon are stored at an artificial child node of rank `DATA` instead of at the taxon itself. The trees and the result files of a
+`match` hence show a node `Data for <taxid>` below each taxon that contributes *k*-mers.
 
 Your machine should have:
 * 1.5 TB of free disk space - mainly for downloading genomes from [NCBI](https://www.ncbi.nlm.nih.gov/),
