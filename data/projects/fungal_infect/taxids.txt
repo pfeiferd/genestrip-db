@@ -71,3 +71,13 @@
 37727
 # Coccidioides
 5500
+# Pneumocystis carinii
+4754
+# Blastocystis
+12967
+# Enterocytozoon bieneusi
+31281
+# Septata intestinalis
+58839
+# Encephalitozoon cuniculi
+6035
