@@ -27,6 +27,10 @@ makedb() {
 makedb babesia
 makedb borrelia
 makedb fungal_infect
+makedb hd-enterobact
+makedb hd-enterobact2
+makedb hd-other
+makedb hd-staph
 makedb human_virus2
 makedb parasites
 makedb plasmopara

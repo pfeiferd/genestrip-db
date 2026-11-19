@@ -1,0 +1,47 @@
+# The six Enterobacterales genera with the most strains (Escherichia, Shigella,
+# Salmonella, Klebsiella, Enterobacter, Citrobacter), from the organisms listed in ncbi_dataset.tsv
+# (NCBI Datasets export, 2026-11-19). Split into hd-staph, hd-enterobact, hd-enterobact2 and
+# hd-other to keep each database below 40 GB. Each genus without its "unclassified" and
+# "environmental samples" subtrees of unnamed species, also those below a species complex.
+# Citrobacter
+544
+# but not environmental samples
+-134345
+# but not unclassified Citrobacter
+-2644389
+# but not unclassified Citrobacter freundii complex
+-2816438
+# Enterobacter
+547
+# but not environmental samples
+-238201
+# but not unclassified Enterobacter
+-2608935
+# but not unclassified Enterobacter cloacae complex
+-2757714
+# Escherichia
+561
+# but not environmental samples
+-75663
+# but not unclassified Escherichia
+-2608889
+# Klebsiella
+570
+# but not environmental samples
+-284010
+# but not unclassified Klebsiella
+-2608929
+# but not unclassified Klebsiella pneumoniae complex
+-3390274
+# Salmonella
+590
+# but not environmental samples
+-263770
+# but not unclassified Salmonella
+-2614656
+# Shigella
+620
+# but not environmental samples
+-75676
+# but not unclassified Shigella
+-2629414

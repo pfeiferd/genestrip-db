@@ -1,0 +1,452 @@
+# The other Enterobacterales genera, from the organisms listed in ncbi_dataset.tsv
+# (NCBI Datasets export, 2026-11-19). Split into hd-staph, hd-enterobact, hd-enterobact2 and
+# hd-other to keep each database below 40 GB. Each genus without its "unclassified" and
+# "environmental samples" subtrees of unnamed species, also those below a species complex.
+# Acerihabitans
+2811373
+# but not environmental samples
+-2811374
+# but not unclassified Acerihabitans
+-2811393
+# Affinibrenneria
+2853326
+# but not environmental samples
+-2853329
+# but not unclassified Affinibrenneria
+-2853327
+# Arsenophonus
+637
+# but not environmental samples
+-575656
+# but not unclassified Arsenophonus
+-2627083
+# Atlantibacter
+1903434
+# but not environmental samples
+-1903474
+# but not unclassified Atlantibacter
+-2649394
+# Biostraticola
+466108
+# but not environmental samples
+-1711611
+# but not unclassified Biostraticola
+-2649971
+# Brenneria
+71655
+# but not environmental samples
+-380006
+# but not unclassified Brenneria
+-2634434
+# Buchnera
+32199
+# but not environmental samples
+-574036
+# but not unclassified Buchnera (in: enterobacteria)
+-2688300
+# Budvicia
+82978
+# but not environmental samples
+-1313318
+# but not unclassified Budvicia
+-2624498
+# Buttiauxella
+82976
+# but not environmental samples
+-389338
+# but not unclassified Buttiauxella
+-2634062
+# Cedecea
+158483
+# but not environmental samples
+-988761
+# but not unclassified Cedecea
+-2649846
+# Chania
+1745211
+# but not environmental samples
+-1817587
+# but not unclassified Chania
+-2638893
+# Chimaeribacter
+2716544
+# but not environmental samples
+-2716547
+# but not unclassified Chimaeribacter
+-2716545
+# Cronobacter
+413496
+# but not environmental samples
+-574119
+# but not unclassified Cronobacter
+-2649764
+# Dickeya
+204037
+# but not environmental samples
+-741652
+# but not unclassified Dickeya
+-2622466
+# Dryocola
+3021684
+# but not environmental samples
+-3021687
+# but not unclassified Dryocola
+-3021685
+# Duffyella
+3026546
+# but not environmental samples
+-3026549
+# but not unclassified Duffyella
+-3026547
+# Edaphovirga
+2678248
+# but not environmental samples
+-2684434
+# but not unclassified Edaphovirga
+-2684432
+# Edwardsiella
+635
+# but not environmental samples
+-404383
+# but not unclassified Edwardsiella (in: enterobacteria)
+-2676541
+# Enterobacillus
+1822002
+# but not environmental samples
+-1822003
+# but not unclassified Enterobacillus
+-2638579
+# Entomohabitans
+2943317
+# Erwinia
+551
+# but not environmental samples
+-246797
+# but not unclassified Erwinia
+-2622719
+# Ewingella
+41201
+# but not environmental samples
+-741656
+# but not unclassified Ewingella
+-2629609
+# Franconibacter
+1649295
+# but not environmental samples
+-1649296
+# but not unclassified Franconibacter
+-2626727
+# Gallaecimonas
+745410
+# but not environmental samples
+-1339157
+# but not unclassified Gallaecimonas
+-2629356
+# Gibbsiella
+929812
+# but not environmental samples
+-1637646
+# but not unclassified Gibbsiella
+-2629005
+# Hafnia
+568
+# but not environmental samples
+-374603
+# but not unclassified Hafnia
+-2621980
+# Huaxiibacter
+2976153
+# Intestinirhabdus
+2899543
+# but not environmental samples
+-2899547
+# but not unclassified Intestinirhabdus
+-2899545
+# Izhakiella
+1780190
+# but not environmental samples
+-1780192
+# but not unclassified Izhakiella
+-2635528
+# Jejuibacter
+2815296
+# but not environmental samples
+-2815297
+# but not unclassified Jejuibacter
+-2815299
+# Kluyvera
+579
+# but not environmental samples
+-286548
+# but not unclassified Kluyvera
+-2619995
+# Kosakonia
+1330547
+# but not environmental samples
+-1588926
+# but not unclassified Kosakonia
+-2632876
+# Leclercia
+83654
+# but not environmental samples
+-332958
+# but not unclassified Leclercia
+-2627398
+# Lelliottia
+1330545
+# but not environmental samples
+-1490865
+# but not unclassified Lelliottia
+-2642424
+# Leminorella
+82980
+# but not environmental samples
+-337216
+# but not unclassified Leminorella
+-2649710
+# Limnobaculum
+2172100
+# but not environmental samples
+-2679889
+# but not unclassified Limnobaculum
+-2679887
+# Lonsdalea
+1082702
+# but not environmental samples
+-1331039
+# but not unclassified Lonsdalea
+-2636545
+# Mangrovibacter
+451512
+# but not environmental samples
+-988763
+# but not unclassified Mangrovibacter
+-2645484
+# Mixta
+2100764
+# but not environmental samples
+-2100766
+# but not unclassified Mixta
+-2628878
+# Moellerella
+158848
+# but not environmental samples
+-358593
+# but not unclassified Moellerella
+-3069577
+# Morganella
+581
+# but not environmental samples
+-300848
+# but not unclassified Morganella (in: enterobacteria)
+-2676694
+# Musicola
+2884243
+# but not environmental samples
+-2884246
+# but not unclassified Musicola
+-2884244
+# Nissabacter
+1964366
+# but not environmental samples
+-1964368
+# but not unclassified Nissabacter
+-2636213
+# Obesumbacterium
+82982
+# but not environmental samples
+-459259
+# but not unclassified Obesumbacterium
+-2635306
+# Pantoea
+53335
+# but not environmental samples
+-218083
+# but not unclassified Pantoea
+-2630326
+# Paramixta
+3231896
+# Pectobacterium
+122277
+# but not environmental samples
+-228953
+# but not unclassified Pectobacterium
+-2627739
+# Photorhabdus
+29487
+# but not environmental samples
+-344009
+# but not unclassified Photorhabdus
+-2620880
+# Phytobacter
+447792
+# but not environmental samples
+-1713885
+# but not unclassified Phytobacter
+-2625049
+# Plesiomonas
+702
+# but not environmental samples
+-708134
+# but not unclassified Plesiomonas
+-2647679
+# Pluralibacter
+1330546
+# but not environmental samples
+-1490863
+# but not unclassified Pluralibacter
+-2621550
+# Pragia
+82984
+# but not environmental samples
+-2908358
+# but not unclassified Pragia
+-2629891
+# Prodigiosinella
+3059405
+# but not unclassified Prodigiosinella
+-3059410
+# Proteus
+583
+# but not environmental samples
+-368001
+# but not unclassified Proteus (in: enterobacteria)
+-257482
+# Providencia
+586
+# but not environmental samples
+-390516
+# but not unclassified Providencia
+-2633465
+# Pseudenterobacter
+2994443
+# but not environmental samples
+-2994458
+# Pseudescherichia
+2055880
+# but not environmental samples
+-2055882
+# but not unclassified Pseudescherichia
+-2620545
+# Pseudocitrobacter
+1504576
+# but not environmental samples
+-1732513
+# but not unclassified Pseudocitrobacter
+-2638778
+# Rahnella
+34037
+# but not environmental samples
+-135152
+# but not unclassified Rahnella
+-2635087
+# Rosenbergiella
+1356488
+# but not environmental samples
+-2282087
+# but not unclassified Rosenbergiella
+-2649256
+# Rouxiella
+1565532
+# but not environmental samples
+-1628839
+# but not unclassified Rouxiella
+-2635761
+# Samsonia
+160433
+# but not unclassified Samsonia
+-2624976
+# Scandinavium
+2726810
+# but not environmental samples
+-2830662
+# but not unclassified Scandinavium
+-2830652
+# Serratia
+613
+# but not environmental samples
+-239173
+# but not unclassified Serratia (in: enterobacteria)
+-2647522
+# Shimwellia
+1335483
+# but not environmental samples
+-1582169
+# but not unclassified Shimwellia
+-3099244
+# Siccibacter
+1649298
+# but not environmental samples
+-1649299
+# but not unclassified Siccibacter
+-2628588
+# Silvania
+3016631
+# but not environmental samples
+-3016634
+# but not unclassified Silvania
+-3016632
+# Sodalis
+84565
+# but not environmental samples
+-687867
+# but not unclassified Sodalis (in: enterobacteria)
+-2636512
+# Superficieibacter
+2303321
+# but not environmental samples
+-2303323
+# but not unclassified Superficieibacter
+-2645744
+# Symbiopectobacterium
+801
+# but not environmental samples
+-2952790
+# but not unclassified Symbiopectobacterium
+-2794573
+# Tatumella
+82986
+# but not environmental samples
+-393081
+# but not unclassified Tatumella
+-2649542
+# Tenebrionibacter
+2918836
+# Tenebrionicola
+2943312
+# but not unclassified Tenebrionicola
+-2943313
+# Thorsellia
+336803
+# but not environmental samples
+-434304
+# but not unclassified Thorsellia
+-2623426
+# Trabulsiella
+158851
+# but not environmental samples
+-884165
+# but not unclassified Trabulsiella
+-2634066
+# Winslowiella
+2997349
+# but not unclassified Winslowiella
+-2997350
+# Xenorhabdus
+626
+# but not environmental samples
+-651589
+# but not unclassified Xenorhabdus
+-2632833
+# Yersinia
+629
+# but not environmental samples
+-454004
+# but not unclassified Yersinia (in: enterobacteria)
+-2653513
+# Yokenella
+158876
+# but not environmental samples
+-756503
+# but not unclassified Yokenella
+-2622477
