@@ -27,9 +27,8 @@ makedb() {
 makedb babesia
 makedb borrelia
 makedb fungal_infect
-makedb hd-enterobact
+makedb hd-entero_n_other
 makedb hd-enterobact2
-makedb hd-other
 makedb hd-staph
 makedb human_virus2
 makedb parasites
@@ -39,6 +38,8 @@ makedb protozoa_rna
 makedb tick-borne
 makedb tick-borne_rna
 makedb vineyard
+# Last, as the largest of the hd databases: the others are done should it fail.
+makedb hd-pseudomonas
 
 # The checksums of the generated files, as needed by 'bin/upload.sh', but only after a
 # default run: a run with goals of its own need not leave the databases in a state

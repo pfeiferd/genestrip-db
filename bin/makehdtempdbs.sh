@@ -10,7 +10,8 @@ cd $scriptdir/..
 # ('tempdb') and writes its content per tax id to a CSV file, whose TOTAL row gives the
 # number of k-mers. The update that follows in a full run does not change the size much,
 # but it moves k-mers between tax ids, so the per-tax-id numbers are not yet final.
-projects="hd-enterobact hd-enterobact2 hd-other hd-staph"
+# hd-pseudomonas last, as the largest: the others are done should it fail.
+projects="hd-entero_n_other hd-enterobact2 hd-staph hd-pseudomonas"
 
 for project in $projects
 do

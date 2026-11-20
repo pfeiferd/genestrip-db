@@ -1,7 +1,8 @@
-# The other Enterobacterales genera, from the organisms listed in ncbi_dataset.tsv
-# (NCBI Datasets export, 2026-11-19). Split into hd-staph, hd-enterobact, hd-enterobact2 and
-# hd-other to keep each database below 40 GB. Each genus without its "unclassified" and
-# "environmental samples" subtrees of unnamed species, also those below a species complex.
+# The other Enterobacterales genera, from the organisms listed in ncbi_dataset.tsv (NCBI
+# Datasets export, 2026-11-19). Split into hd-staph, hd-entero_n_other, hd-enterobact2 and
+# hd-pseudomonas to keep each database below 40 GB and within the memory of the build. Each
+# genus without its "unclassified" and "environmental samples" subtrees of unnamed species,
+# also those below a species complex.
 # Acerihabitans
 2811373
 # but not environmental samples
