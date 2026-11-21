@@ -81,6 +81,9 @@
 							<includePluginDependencies>true</includePluginDependencies>
 							<arguments>
 								<argument>-Xmx54G</argument>
+								<!-- ParallelGC has no humongous regions: under G1 every array a little over a
+								     power-of-two region size wastes a third to half of its space. -->
+								<argument>-XX:+UseParallelGC</argument>
 								<argument>-classpath</argument>
 								<classpath />
 								<argument>org.metagene.genestrip.finertree.FinerTreeMain</argument>
