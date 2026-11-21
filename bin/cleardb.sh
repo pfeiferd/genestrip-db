@@ -38,6 +38,9 @@ cleardb() {
 cleardb babesia
 cleardb borrelia
 cleardb fungal_infect
+cleardb hd-entero_n_other
+cleardb hd-enterobact2
+cleardb hd-pseudomonas
 cleardb human_virus2
 cleardb parasites
 cleardb plasmopara

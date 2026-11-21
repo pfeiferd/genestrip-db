@@ -11,7 +11,18 @@ cd $scriptdir/..
 # number of k-mers. The update that follows in a full run does not change the size much,
 # but it moves k-mers between tax ids, so the per-tax-id numbers are not yet final.
 # hd-pseudomonas last, as the largest: the others are done should it fail.
-projects="hd-entero_n_other hd-enterobact2 hd-staph hd-pseudomonas"
+projects="hd-entero_n_other hd-enterobact2 hd-pseudomonas"
+
+# First the temporary databases and CSV files of an earlier run go, or 'tempdbinfo' would
+# take them as made and not run again. The target 'clean' deletes only the file of the goal
+# itself; 'cleanall' would also run down the goal's dependencies.
+for project in $projects
+do
+	for goal in tempdbinfo tempdb
+	do
+		mvn exec:exec@cleandb -Dname=$project -Dgoal=$goal -Dgs.project.target=clean
+	done
+done
 
 for project in $projects
 do

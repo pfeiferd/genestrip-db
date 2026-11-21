@@ -1,8 +1,9 @@
 # The six Enterobacterales genera with the most strains (Escherichia, Shigella, Salmonella,
-# Klebsiella, Enterobacter, Citrobacter) together with Acinetobacter and Enterococcus, which
-# are too small for a database of their own, from the organisms listed in ncbi_dataset.tsv
-# (NCBI Datasets export, 2026-11-19). Split into hd-staph, hd-entero_n_other, hd-enterobact2
-# and hd-pseudomonas to keep each database below 40 GB and within the memory of the build.
+# Klebsiella, Enterobacter, Citrobacter) together with Acinetobacter, Enterococcus and
+# Staphylococcus, which are too small for a database of their own, from the organisms listed
+# in ncbi_dataset.tsv (NCBI Datasets export, 2026-11-19). Split into hd-entero_n_other,
+# hd-enterobact2 and hd-pseudomonas to keep each database below 40 GB and within the memory
+# of the build.
 # Each genus without its "unclassified" and "environmental samples" subtrees of unnamed
 # species, also those below a species complex.
 # Citrobacter
@@ -61,3 +62,13 @@
 -167971
 # but not unclassified Enterococcus
 -2608891
+# Staphylococcus
+1279
+# but not environmental samples
+-129707
+# but not unclassified Staphylococcus
+-91994
+# but not unclassified Staphylococcus cohnii species complex
+-3239054
+# but not unclassified Staphylococcus intermedius group
+-2815306

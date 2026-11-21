@@ -29,7 +29,6 @@ makedb borrelia
 makedb fungal_infect
 makedb hd-entero_n_other
 makedb hd-enterobact2
-makedb hd-staph
 makedb human_virus2
 makedb parasites
 makedb plasmopara
